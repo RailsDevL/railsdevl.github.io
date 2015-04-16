@@ -4,7 +4,7 @@
   <title><![CDATA[Rails DevL's Blog]]></title>
   <link href="http://railsdevl.github.io/atom.xml" rel="self"/>
   <link href="http://railsdevl.github.io/"/>
-  <updated>2015-04-16T14:46:59-07:00</updated>
+  <updated>2015-04-16T14:50:13-07:00</updated>
   <id>http://railsdevl.github.io/</id>
   <author>
     <name><![CDATA[Rails DevL ]]></name>
@@ -24,7 +24,7 @@
 
 <blockquote><p>git clone git://github.com/imathis/octopress.git octopress</p></blockquote>
 
-<p>Change to that folder:</p>
+<p>Change to the folder:</p>
 
 <blockquote><p>cd octopress</p></blockquote>
 
