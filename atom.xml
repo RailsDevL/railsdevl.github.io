@@ -1,16 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Rails DevL's Blog]]></title>
   <link href="http://railsdevl.github.io/atom.xml" rel="self"/>
   <link href="http://railsdevl.github.io/"/>
-  <updated>2015-04-16T12:16:00-07:00</updated>
+  <updated>2015-04-16T13:15:51-07:00</updated>
   <id>http://railsdevl.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Rails DevL ]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[How to Create Your Own Blog]]></title>
+    <link href="http://railsdevl.github.io/blog/2015/04/16/how-to-create-your-own-blog/"/>
+    <updated>2015-04-16T12:37:40-07:00</updated>
+    <id>http://railsdevl.github.io/blog/2015/04/16/how-to-create-your-own-blog</id>
+    <content type="html"><![CDATA[<p>If you want to create your own blog, you can follow these steps:</p>
+
+<p>Clone the files from the repo to your computer:</p>
+
+<blockquote><p>git clone git://github.com/imathis/octopress.git octopress</p></blockquote>
+
+<p>Change to that folder:</p>
+
+<blockquote><p>cd octopress</p></blockquote>
+
+<p>Download any necessary dependencies:</p>
+
+<blockquote><p>bundle install</p></blockquote>
+
+<p>Install:</p>
+
+<blockquote><p>rake install</p></blockquote>
+
+<p>Configure with your account information:</p>
+
+<blockquote><p>rake setup_github_pages</p></blockquote>
+
+<p>Enter your username instead of mine:  <a href="https://github.com/railsdevl/railsdevl.github.io">https://github.com/railsdevl/railsdevl.github.io</a></p>
+
+<p>Generate the files:</p>
+
+<blockquote><p>rake generate</p></blockquote>
+
+<p>Deploy the code to production:</p>
+
+<blockquote><p>rake deploy</p></blockquote>
+]]></content>
+  </entry>
   
 </feed>
